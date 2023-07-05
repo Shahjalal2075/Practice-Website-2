@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    overflow: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+/* Header-Section */
+
+.header-section{
+    background-color: #01073B;
+}
+.header-section .col-6{
+    padding: 0;
+}
+.hotel-detils{
+    padding: 0 0px;
+}
+.hotel-detils ul li{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+.hotel-detils ul li:nth-child(1){
+    color: #fff;
+}
+.hotel-detils ul li:nth-child(2){
+    margin-left: 6px;
+    color: #6ABFFF;
+}
+.hotel-detils h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    margin-top: 40px;
+}
+.hotel-detils p{
+    padding-right: 200px;
+    font-size: 18px;
+    color: #fff;
+    margin: 30px 0;
+}
+.hotel-detils button,
+.room-detils button{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #01073B;
+    color: #fff;
+    border: solid 1px #fff;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.hotel-img img{
+    width: 680px;
+    overflow: visible;
+}
+
+/* About Section */
+
+.about-section{
+    background-color: #fff;
+}
+
+.about-section ul li{
+    margin-left: 65px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-section ul li:nth-child(1){
+    margin-left: 0;
+}
+.about-section ul li:hover,
+.about-section ul li:nth-child(3){
+    background-color: #01073B;
+    color: #fff;
+    border-radius: 50px;
+}
+.about-section p{
+    text-align: center;
+    padding: 5px 20px;
+    color: #767676;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.about-section p span{
+    font-weight: 600;
+    color: #01073B;
+}
+
+/* Detils-Section */
+
+.detils-section{
+    background-color: #fff;
+}
+.detils-section .col-6{
+    padding: 0;
+}
+.room-img img{
+    width: 570px;
+    overflow: hidden;
+}
+.room-detils{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.room-detils h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-style: italic;
+    color: #353535;
+    margin-top: 40px;
+}
+.room-detils p{
+    font-size: 18px;
+    color: #9A999E;
+    margin: 40px 0;
+    padding-right: 20px;
+}
+
+/* Contact Section */
+
+.contact-section{
+    background-color: #fff;
+}
+.contact-section h2{
+    color: #353535;
+    font-size: 47px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-style: italic;
+}
+.contact-section p{
+    color: #767676;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+.contact-section img{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.contact-section i{
+    font-size: 30px;
+    color: #9A999E;
+    text-align: center;
+    width: 100%;
+}
+h3{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+}
+h4{
+    font-size: 15px;
+    color: #949494;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-form{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea{
+    background: #fff;
+    border: solid 1px #E4E4E4;
+    width: 100%;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"]{
+    height: 50px;
+}
+.contact-form input[type="submit"]{
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #01073B;
+    color: #fff;
+    border: solid 1px #fff;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px 170px;
+    border-radius: 60px;
+}
+.contact-form textarea{
+    height: 145px;
+}
+footer p{
+    font-size: 12px;
+    color: #5B5B5C;
+    margin-bottom: 20px;  
+}
+footer p a{
+    color: #5B5B5C;
+}
+footer p a:hover{
+    color: #5B5B5C;
+    text-decoration: none;
+}
+
+/* T&C */
+
+.trems-section{
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.trems-section h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #363636;
+    font-size: 22px;
+    font-weight: 600;
+}
+.trems-section img{
+    width: 100%;
+}
+.trems-section h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #1E2022;
+}
+.trems-section p{
+    font-size: 20px;
+    color: #9A999E;
+    margin-bottom: 150px;
+    width: 100%;
+}

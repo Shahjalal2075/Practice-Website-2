@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .about-section ul li{
+        margin-left: 55px;
+        font-size: 12px;
+    }
+    .hotel-detils h1,
+    .room-detils h1{
+        font-size: 40px;
+    }
+    .contact-form input[type="submit"]{
+        padding: 10px 100px;
+    }
+    footer p{
+        font-size: 8px;
+    }
+    .room-img img {
+        width: 480px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+    .hotel-img img {
+        width: 585px;
+    }
+    .hotel-detils p {
+        padding-right: 0px;
+    }
+    .about-section ul li {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .room-detils h1{
+        margin-top: -150px;
+    }
+    .room-detils p{
+        margin: 15px 0;
+    }
+    .room-img img {
+        width: 400px;
+    }
+    .contact-form input[type="submit"] {
+        padding: 0px 50px;
+    }
+    footer p{
+        font-size: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    .header-section{
+        text-align: center;
+    }
+    .hotel-img img {
+        width: 100%;
+        margin: 0;
+    }
+    .about-section ul li{
+        padding: 6px 5px;
+    }
+    .room-img img{
+        width: 100%;
+    }
+    .room-detils{
+        margin-left: 10px;
+        text-align: center;
+    }
+    footer p {
+        font-size: 4px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    .hotel-detils ul{
+        padding: 0 20%;
+    }
+   .hotel-detils ul li {
+        font-size: 30px; 
+        margin-left: 10px;
+       margin-bottom: 15px;
+    }
+    .hotel-detils h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .hotel-detils p {
+        font-size: 14px;
+        margin: 30px 5px;
+    }
+    .hotel-detils button, .room-detils button{
+        padding: 8px 20px;
+        margin-left: 10px;
+    }
+    
+    
+    .about-section ul li {
+        margin-left: 5px;
+        font-size: 5px;
+        padding: 10px 20px;
+    }
+    .about-section p{
+        font-size: 12px;
+    }
+    .detils-section{
+        text-align: center;
+    }
+    
+    .contact-section{
+        text-align: center;
+    }
+    .contact-section h2 {
+        font-size: 30px;
+        margin-top: 65px;
+        margin-bottom: 40px;
+    }
+    .contact-section p {
+        margin-bottom: 65px;
+    }
+    .contact-section i {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 10px;
+    }
+    .contact-form{
+        margin-bottom: 70px;
+    }
+    
+}
+@media only screen and (max-width: 420px) {
+    .about-section ul li{
+        padding: 10px 14px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .about-section ul li{
+        padding: 8px 8px;
+    }
+    .hotel-detils ul li{
+        margin-left: -6px;
+    }
+    .contact-section p{
+        padding: 0 20px;
+    }
+    .contact-form input[type="submit"] {
+    padding: 0px 35px;
+    }
+    footer p{
+        font-size: 5px;
+    }
+}
